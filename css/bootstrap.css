@@ -16,9 +16,31 @@
 }
 .secondary-color{
     color: red;
+    font-family: 'Share Tech', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 1em;
+}
+.third-color{
+    color: black;
+    font-family: 'Share Tech', sans-serif;
 }
 button{
+    color: ghostwhite
+}
+.icon{
     color: ghostwhite;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.rodape{
+    margin-top: 10px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
 /* Navbar */
 #navbar{
@@ -62,7 +84,7 @@ button{
     text-shadow: #000 2px 2px;
 }
 .btn{
-    border-radius: 0;
+    border-radius: 6px;
 }
 #slider .btn{
     padding: 0.3 0.8em;
@@ -119,7 +141,6 @@ button{
 }
   #mini-banners .card-title {
     margin-bottom: 1.5em;
-    color: goldenrod;
 }
   #mini-banners .btn {
     margin-top: 1.5em;
